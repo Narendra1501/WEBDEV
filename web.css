@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fffafc;
+}
+
+/* Header */
+.header {
+  background-color: #f8e1ec;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #a83264;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #ffb6c1;
+}
+
+.hero .btn {
+  display: inline-block; /* Makes the button behave like text for proper centering */
+  margin-top: 20px;
+  background-color: #a83264;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+/* Products */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product-card {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* About */
+.about {
+  padding: 40px 20px;
+  background-color: #ffe4e1;
+  text-align: center;
+}
+
+/* Contact */
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fffaf0;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8e1ec;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
